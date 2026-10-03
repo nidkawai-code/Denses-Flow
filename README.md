@@ -18,6 +18,8 @@ Atau jika menggunakan modul ES6:
 
 import { df } from "https://your-cdn-link-here/df.js";
 
+Perhatian: Karena MD ini di generate oleh AI dan gk begitu jelas, gk ada link ke CDN atau apapun yang akan saya masukan ke readme, soalnya kan bisa di copas aja di df.js lagian kodenya cuma < 15kb kok, ya.
+
 ---
 
 ## 📑 Daftar Isi
