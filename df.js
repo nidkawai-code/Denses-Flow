@@ -21,7 +21,7 @@ df.sqrt = x => {
 };
 
 df.pow = (base, exp) => {
-    if (exp > 5000) return 0;
+    if (exp > 100) return 0;
     let result = 1;
     for (let i = 0; i < exp; i++) result *= base;
     return result;
@@ -201,7 +201,7 @@ df.denses = (config = {}) => {
     const bias = config.biases || 0;
     const layers = config.layers || config.arsitect || [];
     const activations = config.activations || config.activates;
-    const randoms = config.initWeights || config.randoms;
+    const randoms = config.initializers || config.randoms || config.initWeights;
     const model = {
         layers,
         activations,
